@@ -13,8 +13,8 @@ from math import sin, pi
 import matplotlib.pyplot as plt
 
 # Getting results of data capture from Excel
-rslt = pd.read_excel('C:/Users/Y520/Documents/Python/book1.xlsx',sheet_name='Time-Domain', usecols=['Ua','Ub','Uc','Ud','Uq','Ia','Ib', 'Ic','Id','Iq'])
-rslt2 = pd.read_excel('C:/Users/Y520/Documents/Python/book1.xlsx', sheet_name='Frequency-Domain', usecols=['Ua','Ub','Uc','Ia','Ib','Ic', 'U_Park','I_Park'])
+rslt = pd.read_excel('C:/Users/.../book1.xlsx',sheet_name='Time-Domain', usecols=['Ua','Ub','Uc','Ud','Uq','Ia','Ib', 'Ic','Id','Iq'])
+rslt2 = pd.read_excel('C:/Users/.../book1.xlsx', sheet_name='Frequency-Domain', usecols=['Ua','Ub','Uc','Ia','Ib','Ic', 'U_Park','I_Park'])
 # Data lists from Time-Domain
 list1=list(rslt['Ua'])
 # print(list1)
